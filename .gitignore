@@ -1,0 +1,8 @@
+*.csv
+*.pyc
+0*.py
+.DS_Store
+venv
+my_env
+.idea
+config.ini
