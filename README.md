@@ -6,9 +6,11 @@ This part is designed to process the NFL Big Data Bowl 2025 dataset. The related
 
 ```sql
 root/
-├── data/
-│   └── nfl-big-data-bowl-2025/    <-- Contains raw CSV files (Raw Data)
-├── process_data/                  <-- Contains data processing scripts
+├── data/ Contains raw CSV files (Raw Data)
+│   └── games.csv    <-- game data
+│   └── player_plays.csv   <-- player data for each play
+│   └── plays.csv <-- play data
+├── src/                  <-- Contains src files
 └── README.md                      <-- Project README file
 ```
 
